@@ -30,8 +30,8 @@ Cette application mobile développée avec NativeScript et Vue.js permet aux uti
 
 ### 1. Cloner le dépôt
 ```bash
-git clone [URL_DU_DEPOT]
-cd [NOM_DU_PROJET]
+git clone https://github.com/ilyeshr2/TaskManager-api-
+cd TaskManager
 ```
 
 ### 2. Installer les dépendances
