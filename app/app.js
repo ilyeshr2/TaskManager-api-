@@ -1,7 +1,9 @@
-import Vue from 'nativescript-vue'
+import Vue from 'nativescript-vue';
+import Login from './components/Login.vue';
 
-import Home from './components/Home'
 
+// Add this at the start of app.js
+Vue.config.silent = false;
 new Vue({
-  render: (h) => h('frame', [h(Home)]),
-}).$start()
+    render: h => h('frame', [h(Login)])
+}).$start();
